@@ -1,6 +1,6 @@
 # C Serial Port Reader
 
-This C program reads data from a serial port and displays it. It is configured to read from a specific serial port at a baud rate of 9600, without any parity checks and with 8 data bits. Hardware flow control (RTS/CTS) is disabled, and software flow control (XON/XOFF) is also disabled. The program reads one character at a time and waits for input indefinitely.
+Both the C program reads data from a serial port and displays it. It is configured to read from a specific serial port at a baud rate of 9600, without any parity checks and with 8 data bits. Hardware flow control (RTS/CTS) is disabled, and software flow control (XON/XOFF) is also disabled. The program reads one character at a time and waits for input indefinitely.
 
 ## Prerequisites
 
