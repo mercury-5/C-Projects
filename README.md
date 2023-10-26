@@ -40,6 +40,6 @@ If an error occurs during the execution, such as failing to open the serial port
 
 Feel free to modify the program or its configuration to suit your specific needs.
 
-## Note:
+### Note:
 
 This program is provided as-is and may require adjustments for your particular use case.
