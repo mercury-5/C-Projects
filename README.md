@@ -11,18 +11,20 @@ This C program reads data from a serial port and displays it. It is configured t
 
 ## How to Use
 
+### Reading GPS data
+
 1. Compile the program using your C compiler.
 
 ```bash
-gcc serial_port_reader.c -o serial_port_reader
+gcc gps.c -o gps
 ```
 2. Execute the program:
 
 ```bash
-./serial_port_reader
+./gps
 ```
 
-- The program will open the serial port, configure it, and start reading data. If data is received, it will be displayed on the console. If you want to stop the program, press `Ctrl+C`.
+- Both the program will open the serial port, configure it, and start reading data. If data is received, it will be displayed on the console. If you want to stop the program, press `Ctrl+C`.
 
 ## Configuration
 
