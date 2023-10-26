@@ -16,12 +16,25 @@ This C program reads data from a serial port and displays it. It is configured t
 1. Compile the program using your C compiler.
 
 ```bash
-gcc gps.c -o gps
+gcc gps.c -o gps_exe
 ```
 2. Execute the program:
 
 ```bash
-./gps
+./gps_exe
+```
+
+### Reading RFID data
+
+1. Compile the program using your C compiler.
+
+```bash
+gcc rfid.c -o rfid_exe
+```
+2. Execute the program:
+
+```bash
+./rfid_exe
 ```
 
 - Both the program will open the serial port, configure it, and start reading data. If data is received, it will be displayed on the console. If you want to stop the program, press `Ctrl+C`.
