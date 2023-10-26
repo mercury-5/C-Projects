@@ -23,3 +23,23 @@ gcc serial_port_reader.c -o serial_port_reader
 ```
 
 - The program will open the serial port, configure it, and start reading data. If data is received, it will be displayed on the console. If you want to stop the program, press `Ctrl+C`.
+
+## Configuration
+
+- The program's configuration includes settings for:
+  - Serial port: `/dev/ttyUSB0`
+  - Baud rate: 9600
+  - Data bits: 8
+  - Parity: None
+  - Stop bits: 1
+  - Flow control: None
+
+## Errors
+
+If an error occurs during the execution, such as failing to open the serial port or reading serial data, the program will display an error message and terminate.
+
+Feel free to modify the program or its configuration to suit your specific needs.
+
+## Note:
+
+This program is provided as-is and may require adjustments for your particular use case.
